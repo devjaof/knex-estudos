@@ -1,0 +1,17 @@
+{
+  "name": "knex-estudos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "knex": "^2.1.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
