@@ -15,6 +15,10 @@ module.exports = {
     migrations: {
       tableName: 'knex_migrations',
       directory: `${__dirname}/app/database/migrations`
+    },
+    seeds: {
+      tableName: 'knex_seeds',
+      directory: `${__dirname}/app/database/seeds`
     }
   }
 }
